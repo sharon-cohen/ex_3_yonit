@@ -24,6 +24,13 @@ header {
     align-items: center;
     height: 110px;
 }
+#layout3-header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
 header span {
     width: 50px;
     height: 50px;
@@ -76,7 +83,7 @@ a:hover {
 .section-1-squares div:nth-child(2) {
     border: 1px solid black;
     position: absolute;
-    left: 750px;
+    left: 550px;
     top: 121px;
     width: 416px;
     height: 286px;
@@ -160,6 +167,7 @@ a:hover {
 }
 
 .layout-3-nav {
+   height: 25%;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .layout-3-nav div:first-child {
@@ -194,7 +202,7 @@ a:hover {
     background-color: #ffffff;
 }
 #main-3 {
-    height: 65%;
+    height: 60%;
     display: flex;
     overflow: auto;
     justify-content: space-around;
